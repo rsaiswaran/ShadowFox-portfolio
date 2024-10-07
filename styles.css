@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+#profile-pic {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it circular */
+    margin-top: 20px; /* Space above the image */
+}
+
+/* Navigation Styles */
+nav {
+    background: #333; /* Dark background */
+    color: white; /* White text */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display links inline */
+    margin-right: 20px; /* Space between links */
+}
+
+nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* General Styles for Sections */
+section {
+    background: #2a2828; /* Dark background for sections */
+    color: white; /* White text for visibility */
+    padding: 20px; /* Padding inside sections */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 30px; /* Space below sections */
+    border-left: 5px solid #007bff; /* Blue left border */
+}
+
+section h2 {
+    color: #007bff; /* Blue color for headings */
+    margin-bottom: 15px; /* Space below headings */
+}
+
+/* Common Link Styles */
+a {
+    display: inline-block; /* Block for better click area */
+    padding: 10px 15px; /* Padding for links */
+    background-color: #007bff; /* Button appearance */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text for visibility */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Specific Styles for Project Items */
+.project {
+    background: #333; /* White background for individual projects */
+    color: #f8f2f2; /* Dark text for project titles */
+    padding: 15px; /* Padding inside project items */
+    margin-bottom: 15px; /* Space between project items */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+#contact ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+#contact li {
+    margin-bottom: 10px; /* Space between items */
+    color: white; /* Text color */
+}
+/* Contact Section Links */
+#contact a {
+    background-color: transparent; /* Remove background color */
+    color: #007bff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+}
+
+#contact a:hover {
+    color: #0056b3; /* Change text color on hover */
+}
+
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form fields */
+}
+
+label {
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Button Styles */
+button {
+    padding: 10px;
+    background-color: #007bff; /* Button color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333; /* Dark background */
+    color: white; /* White text */
+}
+
+/* For smaller screens (max width 768px) */
+@media (max-width: 768px) {
+    nav ul {
+        display: block; /* Stacks the nav items */
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Adds space between nav items */
+        display: block; /* Stacks the links */
+    }
+
+    #profile-pic {
+        width: 100px; /* Smaller profile picture on mobile */
+    }
+
+    body {
+        padding: 10px; /* Reduces padding on mobile */
+    }
+
+    section {
+        padding: 15px; /* Adjusts padding for smaller screens */
+    }
+}
